@@ -1,0 +1,5 @@
+flutter_native_splash:
+  color: "#023824"
+  image: assets/images/irr.png
+  # image_dark: assets/splash_dark.png
+  image_fit: fit
