@@ -339,7 +339,7 @@ class WeatherDetail extends StatelessWidget {
       children: [
         // for current address name
         Image.asset(
-          'assets/images/${weather.weather[0].icon}.png',
+          'assets/images/${weather.weather[0].icon.substring(0, 2)}d.png',
           scale: 1.5,
         ),
         const Text(
